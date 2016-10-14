@@ -10,7 +10,8 @@
 	  <h1>Chi Lab Studies	</h1>
 	</div>
 	<div class="content">
-		<?
+		<?php
+			$thelist = '';
 	 		$dir_path = "./projects";
 			if ($handle = opendir($dir_path)) {
 			    while (false !== ($file = readdir($handle)))

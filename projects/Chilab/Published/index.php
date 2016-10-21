@@ -38,6 +38,10 @@
 	</div>
  	
 
+ 	<div id="navigation">
+ 		<input type="button" name="next" value="Next" />
+ 	</div>
+
  	<script type="text/javascript" src="/javascripts/header.js"></script>
  </body>
 </html>
